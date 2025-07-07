@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="5style.css" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href="5media query.css" rel="stylesheet">
+</head>
+<body>
+     <div class="main5">
+        <video class="bk2-v" autoplay loop muted src="98511-649310767.mp4">background video</video>
+        <nav class="navu5">
+         <ul class="navbar5" id="navbar5">
+                <li><a href="1index.html">Home</a></li>
+                <li><a href="2index.html">Features</a></li>
+                <li><a href="3index.html">Pricing</a></li>
+                <li><a href="4index.html">Blog</a></li>
+                <li><a href="5index.html">Bē</a></li>
+            </ul>
+            <div class="menu-icons-5">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+        <script>
+            let menulist = document.getElementById("navbar5")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "500px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+            <div class="log-main">
+                <div class="text">
+                    <h1 class="first">
+                        We solve digital<br> problems with an <br>outstanding <br>creative flare
+                    </h1>
+                    <P class="p1">
+                        We have created a new product that will help<br> deigners ,devlopers and companies create<br> websiotes for their startups quickly and easly.
+                    </P>
+                </div>
+                <div class="signin-login">
+                    <form action="">
+                        <h1>Login</h1>
+                        <div class="input-box">
+                            <input type="text" placeholder="username" required>
+                            <i class='bx  bx-user-square'  ></i> 
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="password" required>
+                            <i class='bx  bx-lock'  ></i> 
+                        </div>
+                        <div class="remember-forgot">
+                            <label> <input type="checkbox">Remember me</label>
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <button type="submit" class="btn">login</button>
+                        <div class="register-link">
+                            <p>Don't have an account?<a href="#">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+</body>
+</html>

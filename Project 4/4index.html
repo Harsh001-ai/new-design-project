@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="4style.css" rel="stylesheet">
+    <link href="4media quary.css" rel="stylesheet">
+</head>
+<body>
+    <div class="ani">
+        <video autoplay loop muted class="background1" src="98511-649310767.mp4">background video</video>
+        <nav class="navu4">
+             <ul class="navbar4" id="navbar4">
+                <li><a href="1index.html">Home</a></li>
+                <li><a href="2index.html">Features</a></li>
+                <li><a href="3index.html">Pricing</a></li>
+                <li><a href="4index.html">Blog</a></li>
+                <li><a href="5index.html">Bē</a></li>
+             </ul>
+             <div class="menu-icons-4">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+        <script>
+            let menulist = document.getElementById("navbar4")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "500px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    
+    <div class="source">
+        <div class="inner-source">
+    <h1 class="heading1">Powerful Generator and Free<br></h1>
+        <h1 class="heading2">Figma Source</h1>
+    <p class="para1">Startup Freamwork contains component and complex which can easly be <br>integrated into almost any design. All of the components are made in same style, and<br> can easly be integreated into projcts,allowing you to create hundreds of solution</p>
+</div>
+</div>
+</div>
+</body>
+</html>

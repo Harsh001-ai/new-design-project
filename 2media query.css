@@ -1,0 +1,154 @@
+@media (min-width: 450px) and (max-width:900px){
+     .navu1 {
+    position: relative;
+  }
+
+  .navbar2 {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    left: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    z-index: 1000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar2 li {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar2 li a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+  }
+
+  .navbar2 li a:hover {
+    color: cyan;
+    letter-spacing: 1px;
+  }
+
+  .menu-icons-1 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+    cursor: pointer;
+  }
+
+  .h1{
+    font-size: 2.5em;
+    margin-top: 25vh;
+  }
+  .hh1{
+    font-size: 3em;
+  }
+  p{
+    font-size: 4vw;
+  }
+}
+
+
+@media (max-width:449px){
+       .navu1 {
+    position: relative;
+  }
+
+  .navbar2 {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    left: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    z-index: 1000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar2 li {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar2 li a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease;
+  }
+
+  .navbar2 li a:hover {
+    color: cyan;
+    letter-spacing: 1px;
+  }
+
+  .menu-icons-1 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+    cursor: pointer;
+  }
+
+  .h1{
+    font-size: 2.5em;
+    margin-top: 25vh;
+  }
+  .hh1{
+    font-size: 3em;
+  }
+  p{
+    font-size: 4vw;
+  }
+  .b1 {
+    background: linear-gradient(135deg, #00f0ff, #0077ff);
+    color: white;
+    padding: 2px 8px; 
+    font-size: 0.70rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 4px rgba(0, 255, 255, 0.3);
+    font-weight: 500;
+    margin-top: 40px;
+    line-height: 1.2;
+    height: 75px;
+    min-width: 100px;
+  }
+  .play-button {
+    margin-top: 42px;
+  width: 70px;
+  height: 70px;
+  background-color: #1e90ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+}

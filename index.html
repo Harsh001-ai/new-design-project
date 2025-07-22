@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="media query.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-background">
+        <video autoplay loop muted class="background-clip" src="istockphoto-525441560-640_adpp_is.mp4_1750924135936.mp4">background video</video>
+        <nav class="navu">
+             <ul class="navbar" id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Features</a></li>
+                <li><a href="3index.html">Pricing</a></li>
+                <li><a href="4index.html">Blog</a></li>
+                <li><a href="5index.html">Signin & Login</a></li>
+            </ul>
+            <div class="menu-icons">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+        <script>
+            let menulist = document.getElementById("navbar")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "500px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+            <div class="main">
+                <div class="inner-main">
+                <h3>StartUp3</h3>
+                <h1>Forget About Code</h1>
+                <p>Startup Framework gives you complete freedom over your creative <br>process - you don't have to think
+                    about any technical aspect.There are no<br> limits and absolutely no coding.
+                </p>
+                <br>
+                <div class="outer">
+                <div class="butt">
+                <button><a href="5index.html"> Create an Account</a></button>
+            </div>
+        </div>
+            </div>
+            </div>
+    </div>
+</body>
+</html>

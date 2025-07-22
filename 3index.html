@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing</title>
+    <link href="3style.css" rel="stylesheet">
+    <link href="3media query.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main3">
+        <video class="bk1-v" autoplay loop muted src="bk1-vmake.mp4">background video</video>
+        <nav class="navu3">
+         <ul class="navbar-3" id="navbar-3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Features</a></li>
+                <li><a href="3index.html">Pricing</a></li>
+                <li><a href="4index.html">Blog</a></li>
+                <li><a href="5index.html">Bē</a></li>
+            </ul>
+             <div class="menu-icons-3">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+        <script>
+            let menulist = document.getElementById("navbar-3")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "500px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+            <div class="content-3">
+                <div class="inner-content3">
+                <h1 class="pri3">Plan & Pricing</h1>
+                <p class="para3">Startup Framework is free forever- you only pay for<br>custom domain hosting or to export your site</p>
+            </div>
+            </div>
+            <div class="pricing-scroll-wrapper">
+            <div class="pricing-main">
+                <div class="c-1">
+                    <h3 class="hhh3">starter</h3>
+                    <h1 class="hhh1">9.99$</h1>
+                    <ul class="p-list">
+                        <li id="a">2 GB of space</li>
+                        <li id="b">14 days of backups</li>
+                        <li id="c">Social integrations</li>
+                        <li id="d">Client billing</li>
+                        <li>Remote access</li>
+                        <li>Custom domain</li>
+                        <li>24 ours support</li>
+                        <li>Admin tools</li>
+                        <li>Collaboration</li>
+                        <li>User managment</li>
+                    </ul>
+                    <button class="bt1">subscribe</button>
+                </div>
+                <div class="c-2">
+                    <h3 class="hhh3">Professional</h3>
+                    <h1 class="hhh1">19.99$</h1>
+                    <ul class="p-list">
+                        <li id="a1">2 GB of space</li>
+                        <li id="b1">14 days of backups</li>
+                        <li id="c1">Social integrations</li>
+                        <li id="d1">Client billing</li>
+                        <li id="e1">Remote access</li>
+                        <li id="f1">Custom domain</li>
+                        <li>24 ours support</li>
+                        <li>Admin tools</li>
+                        <li>Collaboration</li>
+                        <li>User managment</li>
+                    </ul>
+                    <button class="bt1">subscribe</button>
+                </div>
+                <div class="c-3">
+                    <h3 class="hhh3">Team</h3>
+                    <h1 class="hhh1">9.99$</h1>
+                    <ul class="p-list">
+                        <li>2 GB of space</li>
+                        <li>14 days of backups</li>
+                        <li>Social integrations</li>
+                        <li>Client billing</li>
+                        <li>Remote access</li>
+                        <li>Custom domain</li>
+                        <li>24 ours support</li>
+                        <li>Admin tools</li>
+                        <li>Collaboration</li>
+                        <li>User managment</li>
+                    </ul>
+                    <button class="but1">subscribe</button>
+                </div>
+            </div>
+    </div>
+</div>
+</body>
+</html>

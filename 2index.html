@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2style.css">
+    <link rel="stylesheet" href="2media query.css">
+</head>
+<body>
+        <div class="main-background-1">
+        <video autoplay loop muted class="background-clip" src="75088-554536371.mp4">background video</video>
+        <nav class="navu1">
+             <ul class="navbar2" id="navbar2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Features</a></li>
+                <li><a href="3index.html">Pricing</a></li>
+                <li><a href="4index.html">Blog</a></li>
+                <li><a href="5index.html">Signin & Login</a></li>
+            </ul>
+            <div class="menu-icons-1">
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            </div>
+        </nav>
+        <script>
+            let menulist = document.getElementById("navbar2")
+            menulist.style.maxHeight = "0px";
+
+            function toogleMenu(){
+                if (menulist.style.maxHeight == "0px")
+                 {
+                    menulist.style.maxHeight = "500px";
+                }
+                else{
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    
+            
+            <div class="outer1">
+                <div class="innter1">
+            <h1 class="h1">Easy to setup</h1>
+            <h1 class="hh1">Easy to maintain</h1>
+            <p>Bootstrap is a widely-used, sleek, intuitive and powerful front-end framwork for faster and<br> easier web devlopment.</p>
+            <div class="out1">
+            <button class="b1"><a href="3index.html"> Get Started</a></button>
+                        <div class="play-button">
+  <div class="triangle"></div>
+</div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

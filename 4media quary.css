@@ -1,9 +1,9 @@
-@media (min-width:300px) and (max-width:700px){
-    .navu3 {
+ @media (min-width:601px) and (max-width:700px){
+ .navu5 {
     position: relative;
   }
 
-  .navbar-3 {
+  .navbar5 {
     position: absolute;
     top: 70px;
     right: 10px;
@@ -21,25 +21,25 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
-  .navbar-3 li {
+  .navbar5 li {
     display: block;
     padding: 15px 28px;
     width: 50%;
     text-align: center;
   }
 
-  .navbar-3 li a {
+  .navbar5 li a {
     color: white;
     font-size: 18px;
     transition: 0.3s ease;
   }
 
-  .navbar-3 li a:hover {
+  .navbar5 li a:hover {
     color: cyan;
     letter-spacing: 1px;
   }
 
-  .menu-icons-3 {
+  .menu-icons-5 {
     display: block;
     position: absolute;
     top: 20px;
@@ -47,109 +47,232 @@
     z-index: 1100;
     cursor: pointer;
   }
-   .pricing-scroll-wrapper {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-  }
-
-  .pricing-main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-
-  .pricing-main > div {
-    scroll-snap-align: start;
-    flex: 0 0 100vh; 
-    box-sizing: border-box;
-    padding: 20px;
-  }
-   .pricing-main > div {
-    width: 95%;
-    padding: 15px;
-  }
-  .pricing-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* height: 200px; */
-}
-
-.pricing-main > div {
-  width: 90%;
-  max-width: 400px; 
-  margin: 20px auto;
-  padding: 20px;
-  border: 2px solid white;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  box-sizing: border-box;
-  scroll-snap-align: start;
-}
-.pri3{
-    font-size: 40px;
-}
-.para3{
-    font-size: 20px;
+  .log-main{
     margin-top: 10px;
+    /* margin-left: 200px; */
+    margin-top: 84px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    color: white;
+    font-size: 3vw;
+    margin-top: 30px;
+    text-align: center;
+}
+.first{
+    width: 100%;
+    text-align: center;
 }
 br{
     display: none;
 }
-.hhh3{
-    font-size: 20px;
-}
-.hhh1{
-    font-size: 20px;
-}
-li{
-    font-size: 20px;
-}
+.text{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
+.signin-login {
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+    }
 
-@media (min-width:701px) and (max-width:1024px){
-   .pricing-scroll-wrapper {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    .signin-login h1 {
+        font-size: 28px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+    }
+
+    .signin-login .remember-forgot {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .btn:hover {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signin-login {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    .signin-login h1 {
+        font-size: 24px;
+    }
+
+    .input-box input {
+        padding: 15px 40px 15px 15px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+        right: 15px;
+    }
+
+    .signin-login .btn {
+        font-size: 14px;
+        height: 40px;
+    }
+}
+@media (max-width:700px){
+  .navu5 {
+    position: relative;
   }
 
-  .pricing-main {
-    display: flex;
+  .navbar5 {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    left: auto;
     flex-direction: column;
-    margin-top: 20px;
+    align-items: flex-end;
+    text-align: right;
+    background: rgba(15, 15, 15, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    z-index: 1000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 
-  .pricing-main > div {
-    scroll-snap-align: start;
-    flex: 0 0 100vh; 
-    box-sizing: border-box;
-    padding: 20px;
+  .navbar5 li {
+    display: block;
+    padding: 15px 28px;
+    width: 100%;
+    text-align: center;
   }
-   .pricing-main > div {
-    width: 95%;
-    padding: 15px;
+
+  .navbar5 li a {
+    color: black;
+    font-size: 18px;
+    transition: 0.3s ease;
   }
-  .pricing-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  .navbar5 li a:hover {
+    color: cyan;
+    letter-spacing: 1px;
+  }
+
+  .menu-icons-5 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+    cursor: pointer;
+  }
+  .log-main{
+    margin-top: 10px;
+    /* margin-left: 200px; */
+    margin-top: 84px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    color: white;
+    font-size: 3vw;
+    margin-top: 30px;
+    text-align: center;
+}
+.first{
+    width: 100%;
+    text-align: center;
+}
+br{
+    display: none;
+}
+    .signin-login {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    .signin-login h1 {
+        font-size: 24px;
+    }
+
+    .input-box input {
+        padding: 15px 40px 15px 15px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+        right: 15px;
+    }
+
+    .signin-login .btn {
+        font-size: 14px;
+        height: 40px;
+    }
 }
 
-.pricing-main > div {
-  width: 90%;
-  max-width: 400px; 
-  margin: 20px auto;
-  padding: 20px;
-  border: 2px solid white;
-  border-radius: 20px;
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  box-sizing: border-box;
-  scroll-snap-align: start;
+@media (min-width:710px) and (max-width:1024px) {
+  .log-main{
+    margin-top: 10px;
+    /* margin-left: 200px; */
+    margin-top: 84px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
 }
+.text{
+    color: white;
+    font-size: 3vw;
+    margin-top: 30px;
+    text-align: center;
+}
+.first{
+    width: 100%;
+    text-align: center;
+}
+br{
+    display: none;
+}
+.text{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.signin-login {
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .signin-login h1 {
+        font-size: 28px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+    }
+
+    .signin-login .remember-forgot {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .btn:hover {
+        padding: 10px;
+    }
 }

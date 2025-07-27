@@ -57,13 +57,14 @@ li{
   font-size: 30px;
 }
 .source{
-    display: flex;
     justify-content: center;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .heading1{
-    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
     font-size: 5.2vw;
 }
 .heading2{

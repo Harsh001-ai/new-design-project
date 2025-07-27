@@ -1,4 +1,4 @@
- @media (min-width:601px) and (max-width:900px){
+ @media (min-width:601px) and (max-width:700px){
  .navu5 {
     position: relative;
   }
@@ -126,7 +126,7 @@ br{
         height: 40px;
     }
 }
-@media (max-width:900px){
+@media (max-width:700px){
   .navu5 {
     position: relative;
   }
@@ -218,5 +218,61 @@ br{
     .signin-login .btn {
         font-size: 14px;
         height: 40px;
+    }
+}
+
+@media (min-width:710px) and (max-width:1024px) {
+  .log-main{
+    margin-top: 10px;
+    /* margin-left: 200px; */
+    margin-top: 84px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    color: white;
+    font-size: 3vw;
+    margin-top: 30px;
+    text-align: center;
+}
+.first{
+    width: 100%;
+    text-align: center;
+}
+br{
+    display: none;
+}
+.text{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.signin-login {
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .signin-login h1 {
+        font-size: 28px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+    }
+
+    .signin-login .remember-forgot {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .btn:hover {
+        padding: 10px;
     }
 }

@@ -111,55 +111,7 @@ li{
 
 
 
-@media (min-width:701px) and (max-width:1100px){
-        .navu3 {
-    position: relative;
-  }
-
-  .navbar-3 {
-    position: absolute;
-    top: 70px;
-    right: 10px;
-    left: auto;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: right;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
-    z-index: 1000;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
-
-  .navbar-3 li {
-    display: block;
-    padding: 15px 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-3 li a {
-    color: white;
-    font-size: 18px;
-    transition: 0.3s ease;
-  }
-
-  .navbar-3 li a:hover {
-    color: cyan;
-    letter-spacing: 1px;
-  }
-
-  .menu-icons-3 {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1100;
-    cursor: pointer;
-  }
+@media (min-width:701px) and (max-width:1024px){
    .pricing-scroll-wrapper {
     height: 100vh;
     overflow-y: scroll;
@@ -200,47 +152,4 @@ li{
   box-sizing: border-box;
   scroll-snap-align: start;
 }
-.hhh3{
-    font-size: 40px;
-}
-.hhh1{
-    font-size: 40px;
-}
-li{
-    font-size: 40px;
-}
-br{
-    display: none;
-}
-.bt1{
-          padding: 26px 43px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-weight: 600;
-    position: relative;
-    top: 35px;
-}
-.but1{
-      padding: 26px 43px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-weight: 600;
-    position: relative;
-    top: 35px;
-    left: 15px;
-}
-/* .pri3{
-    font-size: 40px;
-}
-.para3{
-    font-size: 20px;
-    margin-top: 10px;
-}
-br{
-    display: none;
-} */
 }
